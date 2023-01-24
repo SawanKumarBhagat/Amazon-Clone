@@ -1,0 +1,41 @@
+.order{
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+}
+
+.order__details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.order__created{
+    /* position: absolute; */
+    top: 40px;
+    right: 20px;
+}
+
+.order__id{
+    display: flex;
+    align-items: center;
+}
+
+.order__id > small{
+    padding-left: 5px;
+}
+
+.order__total{
+    font-weight: 500;
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .order{
+        font-size: 12px;
+        
+    }
+}
