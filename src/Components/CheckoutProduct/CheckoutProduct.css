@@ -21,6 +21,16 @@
     color: #111;
     cursor: pointer;
     border-radius: 2px;
+    transition: transform '0.2s';
+
+}
+
+.checkoutProduct__info  > button:hover{
+    transform: scale(1.02);
+}
+
+.checkoutProduct__info  > button:active{
+    transform: translateY(1px);
 }
 
 .checkoutProduct__image{
